@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Author: Helio Leal
 # This program goal is to learn how to use regex in shell script.
 
 # Pattern variable defines that needs to start with prefix helio_ + 8 numbers
