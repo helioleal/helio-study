@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Author: Helio Leal
 # This program calls a function with two parameters.
 
 function_with_two_parameters()
