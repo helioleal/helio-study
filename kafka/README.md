@@ -64,3 +64,14 @@ Topic: topiconovo       TopicId: zZr990bIRAaAZy_okT45DQ PartitionCount: 1       
 
 #### Curiosidades
 
+##### Zookeeper
+
+Quando comecei a estudar Kafka, percebi que tinha que subir esse serviço do Zookeeper antes do Kafka e fiquei na dúvida sobre o que seria esse serviço, então eu pesquisei e descobri algumas respostas interessantes, resumindo meu entendimento, o zookeper é uma plataforma _Open Source_ que foi criada com o intuito de auxiliar no gerencimento de aplicações distribuídas que são desenvolvidades para Cloud, como por exemplo, auxiliar no gerencimento de um Cluster.
+
+Definição Wikipedia: "Apache ZooKeeper is an open-source server for highly reliable distributed coordination of cloud applications..."
+Referência: https://en.wikipedia.org/wiki/Apache_ZooKeeper#:~:text=Apache%20ZooKeeper%20is%20an%20open-source%20server%20for%20highly,is%20a%20project%20of%20the%20Apache%20Software%20Foundation.
+
+Documentação do próprio Zookeeper: https://zookeeper.apache.org/
+
+Blog com algumas respostas interessantes: https://qastack.com.br/programming/23751708/is-zookeeper-a-must-for-kafka#:~:text=O%20Kafka%20foi%20desenvolvido%20para%20usar%20o%20Zookeeper.,pergunta%2C%20parece%20que%20voc%C3%AA%20n%C3%A3o%20precisa%20do%20Kafka.
+
