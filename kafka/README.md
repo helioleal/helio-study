@@ -45,22 +45,8 @@ C:\kafka>.\bin\windows\kafka-server-start.bat .\config\server.properties
 
 #### Comandos
 
-Agora que o seu serviço Kafka está em pé, você pode começar a executar alguns comandos para utilização do serviço.
+Agora que o seu serviço Kafka está em pé, você pode começar a executar alguns comandos para utilização do serviço, consultar as pastas topic, producer e consumer para isso.
 
-##### Criar novo tópico no Kafka
-
-```
-C:\kafka\bin\windows>kafka-topics.bat --create --bootstrap-server 192.168.0.86:9092 --topic topiconovo
-	Created topic topiconovo.
-```
-
-##### Listar tópicos existentes no kafka
-
-```
-C:\kafka\bin\windows>kafka-topics.bat --bootstrap-server 192.168.0.86:9092 --describe
-Topic: topiconovo       TopicId: zZr990bIRAaAZy_okT45DQ PartitionCount: 1       ReplicationFactor: 1    Configs: segment.bytes=1073741824
-        Topic: topiconovo       Partition: 0    Leader: 0       Replicas: 0     Isr: 0
-```
 
 #### Curiosidades
 
