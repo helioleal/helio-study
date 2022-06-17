@@ -61,3 +61,9 @@ Documentação do próprio Zookeeper: https://zookeeper.apache.org/
 
 Blog com algumas respostas interessantes: https://qastack.com.br/programming/23751708/is-zookeeper-a-must-for-kafka#:~:text=O%20Kafka%20foi%20desenvolvido%20para%20usar%20o%20Zookeeper.,pergunta%2C%20parece%20que%20voc%C3%AA%20n%C3%A3o%20precisa%20do%20Kafka.
 
+#### Dicas
+
+##### O que fazer quando mudar o zookeper de local na minha estação
+Quando isso acontece o Kafka para de funcionar, o ideal nesses casos para que o kafka volte a funcionar é limpar a pasta de log do Kafka, com isso o serviço volta a subir corretamente.
+
+
