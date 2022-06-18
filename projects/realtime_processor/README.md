@@ -5,13 +5,13 @@
 Contains all files of project
 
 customer.avsc: Avro schema containing information about a hypothetical customer.
-    * Customer has the fields:
-        * Customer code: Int 
-        * Agency: String
-        * Operation value: Double 
-        * Operation type (Deposit or withdraw): int -> 0 for deposit, 1 for withdraw
-        * Date: String -> format yyyy-MM-dd HH:mm:ss
-        * Account Balance: Double
+* Customer has the fields:
+   * Customer code: Int 
+   * Agency: String
+   * Operation value: Double 
+   * Operation type (Deposit or withdraw): int -> 0 for deposit, 1 for withdraw
+   * Date: String -> format yyyy-MM-dd HH:mm:ss
+   * Account Balance: Double
 
 config.yaml: All generic configuration about the project
     * kafka_server: Kafka host
