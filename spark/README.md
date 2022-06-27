@@ -56,6 +56,7 @@ Que era basicamente: O winutils.exe , hadoop.dll deve estar abaixo do C:\spark\s
 
 Depois da dica acima o spark streaming funcionou local, porém eu não usei a última versão do spark, eu usei uma anterior.
 
+Postei o código spark_consumer.py (https://github.com/helioleal/helio-study/blob/main/spark/spark_consumer.py) com o código do spark streaming funcionando consumindo um tópico do Kafka.
 
 
 
